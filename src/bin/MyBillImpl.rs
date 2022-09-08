@@ -153,7 +153,7 @@ fn main_menu() {
 
     loop {
         show();
-      MyBillImplementation  let input = match get_input() {
+       let input = match get_input() {
             Some(input) => input,
             None => String::new(),
         };
